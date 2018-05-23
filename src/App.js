@@ -75,7 +75,7 @@ class App extends Component {
                 show:false,
             },
             legend: {
-                data:['国债','沪深','推荐组合']
+                data:['平安投顾','天天基金']
             },
             grid: {
                 left: '3%',
@@ -87,7 +87,7 @@ class App extends Component {
                 {
                     type : 'category',
                     boundaryGap : false,
-                    data : this.state.d,
+                    data : this.state.a,
                     show:false,
                 }
             ],
